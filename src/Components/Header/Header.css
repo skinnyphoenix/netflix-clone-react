@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap");
+
+.wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  background: var(--black, #141414);
+}
+
+.headerList {
+  list-style-type: none;
+  gap: 20px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+}
+
+.headerList li {
+  cursor: pointer;
+  position: relative;
+  padding: 0 10px;
+}
+
+li:after {
+  content: "";
+  position: absolute;
+  background-color: red;
+  height: 3px;
+  width: 0;
+  left: 0;
+  bottom: -10px;
+  transition: 0.3s;
+}
+
+li:hover:after {
+  width: 100%;
+}
+
+.userBox {
+  gap: 8px;
+  margin-right: 8px;
+  align-items: center;
+  display: flex;
+  cursor: pointer;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  cursor: pointer;
+}
+
+li {
+  font-size: medium;
+  color: white;
+  font-family: "Inter", sans-serif;
+  cursor: pointer;
+}
+
+.searchLens {
+  fill: #ffffff;
+}
+
+.btn-1 a {
+  text-decoration: none;
+  color: inherit;
+}

@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap");
+
+.wrapperListCards {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  cursor: pointer;
+}
+
+.wrapperListCards:hover {
+  transform: scale(1.1);
+  transition: 0.25s;
+}
+
+.wrapperListCards img {
+  width: 240px;
+  border-radius: 12px;
+}
+
+.wrapperListCards h3 {
+  margin: 10px;
+  color: white;
+  font-family: "IBM Plex Sans", sans-serif;
+}

@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap");
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  font-family: "IBM Plex Sans", sans-serif;
+}
+
+.wrapperHero {
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  min-height: 70%;
+}
+
+.wrapperHero img {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.textHero {
+  position: absolute;
+  left: 30px;
+  top: 15%;
+  right: 50%;
+}
+
+.textHero img {
+  width: 70%;
+}
+
+.textHero p {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  color: white;
+}
+
+.textHero button {
+  border: none;
+  background-color: black;
+  color: white;
+  padding: 9px;
+  cursor: pointer;
+  border-radius: 12px;
+  margin: 13px;
+}
+
+.text {
+  margin-left: 40px;
+  margin-top: 50px;
+  color: white;
+  font-family: "IBM Plex Sans", sans-serif;
+}

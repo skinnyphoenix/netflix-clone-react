@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--black, #141414);
+}
+
+.wrapperCardList {
+  padding: 25px;
+  gap: 25px;
+  margin-top: 10px;
+  display: flex;
+  overflow-y: scroll;
+}
